@@ -37,6 +37,7 @@ ENV/
 *.html
 *.RData
 *.Rhistory
+url.txt
 
 # Compressed files
 *.tar
