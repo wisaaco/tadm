@@ -1,0 +1,5 @@
+# Basic requirements
+pandas          == 1.4.4
+numpy           == 1.12.3
+palmerpenguins  == 0.1.4
+
