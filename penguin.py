@@ -5,7 +5,7 @@ Description:
     Primera entrega de ejercicios.
     
 Author:
-    Joan Pont (jponte98@gmail.com)
+    Joan Pont (jponte98@gmail.com) #alerta. evita poner @ e información personal, en un sitio público.
 """
 
 import pandas as pd
@@ -51,7 +51,8 @@ def main():
     penguins = penguins.dropna()
     # Comprobamos que no hay ninguna columna con algún valor NA
     print(f'Comprobamos que no hay columnas con valores NA: \n {penguins.isna().any()} \n')
-
+    print("Comprobamos que no hay columnas con valores NA:\n",penguins.isna().any()) #te recomiendo este estilo de prints.
+    
     ######################################################################################
     # EJERCICIO 3
     ###################################################################################### 
